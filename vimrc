@@ -29,6 +29,9 @@ Bundle 'mileszs/ack.vim'
 
 filetype plugin indent on     " required!
 
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 set expandtab
 set shiftwidth=2
 set softtabstop=2

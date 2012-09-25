@@ -35,6 +35,13 @@ set showmode
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+" resize current window by +/- 5
+nnoremap <Leader>wr :vertical resize -5<cr>
+nnoremap <Leader>ws :resize +5<cr>
+nnoremap <Leader>w2 :resize -5<cr>
+nnoremap <Leader>we :vertical resize +5<cr>
+
 syntax on
 set viminfo='10,\"100,:20,%,n~/.viminfo
 
